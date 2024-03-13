@@ -12,7 +12,7 @@ public class Cliente {
 	private String cpf_cnpj;
 	private Long telefone_primario;
 	private String genero;
-	private String data_nascmento;
+	private String data_nascimento;
 
 	private List<Servico> servicos = new ArrayList<>();
 
@@ -26,7 +26,7 @@ public class Cliente {
 		this.cpf_cnpj = cpf_cnpj;
 		this.telefone_primario = telefone_primario;
 		this.genero = genero;
-		this.data_nascmento = data_nascmento;
+		this.data_nascimento = data_nascmento;
 		this.servicos = servicos;
 	}
 
@@ -72,12 +72,12 @@ public class Cliente {
 
 
 	public String getData_nascmento() {
-		return data_nascmento;
+		return data_nascimento;
 	}
 
 
 	public void setData_nascmento(String data_nascmento) {
-		this.data_nascmento = data_nascmento;
+		this.data_nascimento = data_nascmento;
 	}
 
 
@@ -95,7 +95,7 @@ public class Cliente {
 	@Override
 	public String toString() {
 		return "Cliente [nome_razaosocial=" + nome_razaosocial + ", cpf_cnpj=" + cpf_cnpj + ", telefone_primario="
-				+ telefone_primario + ", genero=" + genero + ", data_nascmento=" + data_nascmento + ", servicos="
+				+ telefone_primario + ", genero=" + genero + ", data_nascimento=" + data_nascimento + ", servicos="
 				+ servicos + "]";
 	}
 	
